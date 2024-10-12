@@ -115,6 +115,13 @@ document.getElementById('registerForm').addEventListener('submit', function (eve
     window.location.href = 'list.html';
 });
 
+// Se valida cuando se presiona el botón de ver usuarios con el id ver-usuarios
+document.getElementById('ver-usuarios').addEventListener('click', function () {
+
+    // Se redirecciona a registrar usuarios
+    window.location.href = 'list.html';
+});
+
 // Se crea un metodo para generar ids al azar
 function generateId() {
 
