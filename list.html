@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Usuarios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="register.html">Registro</a></li>
+            <li><a href="list.html">Listado de Usuarios</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 style="text-align: center;">Listado de Usuarios</h1>
+        <div class="table-container">
+            <table id="userTable" border
+                style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                <thead>
+                    <tr>
+                        <th style="width: 150px; margin-left: 10px; margin-right: 10px;">ID</th>
+                        <th style="width: 150px; margin-left: 10px; margin-right: 10px;">Nombre</th>
+                        <th style="width: 150px; margin-left: 10px; margin-right: 10px;">Apellido</th>
+                        <th style="width: 150px; margin-left: 10px; margin-right: 10px;">Identificación</th>
+                        <th style="width: 150px; margin-left: 10px; margin-right: 10px;">Tipo de Identificación</th>
+                        <th style="width: 150px; margin-left: 10px; margin-right: 10px;">Correo</th>
+                        <th style="width: 150px; margin-left: 10px; margin-right: 10px;">Teléfono</th>
+                        <th style="width: 150px; margin-left: 10px; margin-right: 10px;">Dirección</th>
+                        <th style="width: 150px; margin-left: 10px; margin-right: 10px;">Estado</th>
+                    </tr>
+                </thead>
+                <tbody style="text-align: center;">
+                    <!-- Aquí se insertarán los usuarios -->
+                </tbody>
+            </table>
+        </div>
+        <div style="text-align: center;">
+            <button id="ver-usuarios">
+                Crear Usuario
+            </button>
+        </div>
+    </main>
+    <footer>
+        <p>Egdar Mercado</p>
+        <p>© 2024 Todos los derechos reservados</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
